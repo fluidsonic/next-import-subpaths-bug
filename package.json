@@ -1,0 +1,9 @@
+{
+	"name": "test",
+	"type": "module",
+	"private": true,
+	"dependencies": {
+		"typescript": "5.7.2"
+	},
+	"packageManager": "pnpm@9.15.0"
+}

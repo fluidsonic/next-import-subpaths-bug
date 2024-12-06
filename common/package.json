@@ -1,0 +1,23 @@
+{
+	"name": "common",
+	"version": "0.0.0",
+	"type": "module",
+	"exports": {
+		".": "./src/Test.tsx"
+	},
+	"imports": {
+		"#*": [
+			"./src/*.tsx",
+			"./src/*.ts",
+			"./src/*/index.tsx",
+			"./src/*/index.ts",
+			"./src/*"
+		]
+	},
+	"dependencies": {
+		"@types/react": "19.0.1",
+		"@types/react-dom": "19.0.1",
+		"react": "19.0.0",
+		"react-dom": "19.0.0"
+	}
+}
